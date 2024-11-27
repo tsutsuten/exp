@@ -1,2 +1,5 @@
-var helloRouter = require('./routes/hello');
-app.use('/hello', helloRouter);
+extends layout
+
+block content
+  <h1> Hello Page </h1>
+  p Welcome to #{title}
